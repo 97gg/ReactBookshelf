@@ -30,7 +30,7 @@ function App() {
       >
 
           <Routes>
-              <Route path="/ReactBookshelf/" element={<Home/>}/>
+              <Route path="/97gg.github.io/ReactBookshelf/" element={<Home/>}/>
               <Route path="/home" element={<Home/>}/>
               <Route path="/books" element={<Books/>}/>
               <Route path="/books/:bookId" element={<BookDetail/>}/>
