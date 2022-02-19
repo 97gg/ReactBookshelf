@@ -1,11 +1,9 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import bestsellerListData from '../../assets/data/bestseller.json'
 import {NavLink} from "react-router-dom";
 import CategoryButton from "../../components/CategoryButton/CategoryButton";
 
-const API_KEY = process.env.REACT_APP_API_KEY;
-const API_URL = process.env.REACT_APP_API_URL;
 
 function Home() {
     const categories = ["narrativa", "amore", "avventura", "fantasy", "horror", "gialli", "sport", "viaggi"];

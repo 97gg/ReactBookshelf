@@ -47,7 +47,5 @@
     "prop-types": "^15.8.1",
     "react-router-dom": "^6.2.1",
     "reactstrap": "^9.0.1"
-  },
-  "homepage": "https://97gg.github.io/react-bookshelf"
-
+  }
 }
