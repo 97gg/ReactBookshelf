@@ -11,7 +11,7 @@ import Profile from "../Profile/Profile";
 function App() {
 
   const nav = [
-    {url: "/", text: "Home", exact: "true"},
+    {url: "/home", text: "Home", exact: "true"},
     {url: "/books", text: "Libri", exact: "false"}
   ];
 
@@ -31,6 +31,7 @@ function App() {
 
           <Routes>
               <Route path="/" element={<Home/>}/>
+              <Route path="/ReactBookshelf/" element={<Home/>}/>
               <Route path="/home" element={<Home/>}/>
               <Route path="/books" element={<Books/>}/>
               <Route path="/books/:bookId" element={<BookDetail/>}/>
