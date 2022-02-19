@@ -1,0 +1,17 @@
+.categoryContainer {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--green);
+    background: radial-gradient(circle at 50% 50%, #69d818, #63d216, #5ccc15, #56c613, #4fc011, #49bb0f, #43b50d, #3caf0b);
+    color: var(--white);
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.categoryContainer:hover {
+    transform: scale(1.2);
+    color: var(--white);
+}

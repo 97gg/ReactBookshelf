@@ -1,0 +1,53 @@
+.logo {
+    max-width: 40px;
+    transition: all .2s;
+    margin-right: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.navBar {
+    background: var(--green);
+    width: 100%;
+    top: 0;
+}
+
+.navBar a {
+    font-weight:bold;
+}
+
+.title {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.navItem a {
+    padding: 5px 20px;
+    color:whitesmoke;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+a.nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.dropdownMenuRight {
+    right: 15%;
+}
+
+.dropdownProfile.active {
+    background-color: var(--green) !important;
+    color: var(--white);
+}
+
+
+
+
+
+
+

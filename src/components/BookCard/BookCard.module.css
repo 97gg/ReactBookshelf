@@ -1,0 +1,32 @@
+.cardDetailsButton {
+    display: inline-block;
+    padding: 4px 16px;
+    background: var(--light-green);
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--light-green);
+    position: absolute;
+    right: 10%;
+    bottom:5%;
+}
+
+.cardDetailsButton:hover {
+    background: var(--white);
+    color: var(--light-green);
+    border: 1px solid var(--light-green);
+}
+
+.cardImage {
+    max-height: 280px;
+}
+
+.bookCard {
+    height: 500px;
+}
+
+.cardBodyContainer {
+    max-height: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,19 @@
+/*********** PALETTE ***********/
+
+:root {
+  --green: #277207;
+  --dark-green: #164003;
+  --light-green: #499a0f;
+  --white: #eafbe3;
+  --black: #050e01;
+  --grey: #edfde6;
+}
+
+#profileDropDown {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: var(--light-green) !important;
+}

@@ -1,0 +1,58 @@
+.switch {
+    display: flex;
+    margin: 30px 0 50px;
+    justify-content: end;
+}
+
+.option {
+    display: inline-block;
+    padding: 4px 16px;
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--light-green);
+    color: var(--light-green);
+}
+
+.option:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.option:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.option.active {
+    background-color: var(--light-green);
+    color: white;
+}
+
+.back {
+    display: flex;
+    margin: 30px 0 50px;
+    justify-content: start;
+}
+
+.backButton {
+    display: inline-block;
+    padding: 4px 16px;
+    background: var(--green);
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--green);
+    float: right;
+}
+
+.backButton:hover {
+    background: var(--dark-green);
+    color: var(--white);
+}
+
+.title {
+    margin: 30px 0 50px;
+    padding-left: 23px;
+    text-transform: capitalize;
+}
+

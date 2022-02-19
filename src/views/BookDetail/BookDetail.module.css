@@ -1,0 +1,40 @@
+.detailImage {
+    max-width: 25%;
+    border-top-left-radius: 10px;
+}
+
+.buyLink {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.buyLink:hover {
+    color: var(--light-green);
+}
+
+.details {
+    float:right;
+}
+
+.cardDetail {
+    background-color: var(--grey);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buyButton {
+    display: inline-block;
+    padding: 4px 16px;
+    background: var(--green);
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--green);
+    float: right;
+}
+
+.buyButton:hover {
+    background: var(--white);
+    color: var(--green);
+    border: 1px solid var(--green);
+}

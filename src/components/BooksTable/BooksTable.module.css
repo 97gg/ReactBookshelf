@@ -1,0 +1,23 @@
+.buyLink {
+    color: var(--green);
+}
+
+.buyLink:hover {
+    color: var(--light-green);
+}
+
+.detailsButton {
+    display: inline-block;
+    padding: 4px 16px;
+    background: var(--light-green);
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--light-green);
+}
+
+.detailsButton:hover {
+    background: var(--white);
+    color: var(--light-green);
+    border: 1px solid var(--light-green);
+}

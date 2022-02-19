@@ -1,0 +1,108 @@
+[
+  {
+    "kind": "books#volume",
+    "id": "1",
+    "volumeInfo": {
+      "title": "Obbligo o verità: Che barba l'amore",
+      "authors": [
+        "Penny Reid"
+      ],
+      "publisher": "Always Publishing",
+      "publishedDate": "2018-06-21",
+      "description": "Jessica James, laureata da poco ma da sempre con la testa sulle spalle, è pronta a fare ritorno nella sua piccola città natale del Tennesse per prepararsi alla vita di viaggi che sogna da sempre. Ad attenderla ci sarà la sua eterna cotta infantile, Beau Winston, il cui sorriso amichevole non ha mai smesso di farle cedere le ginocchia e annodare la lingua, ma soprattutto il suo avversario di sempre, Duane Winston, il gemello di Beau. Due uomini che potranno anche condividere lo stesso cognome e un viso dal fascino devastante, ma mentre Beau è affabile ed estroverso, Duane è silenzioso e riflessivo. Complice un simpatico equivoco e un'interessante partita a Obbligo o Verità, Jessica si ritroverà a chiedersi se dietro alla rivalità con Duane non si nasconda molto di più. Scoprire l'eterna e insaziabile cotta del gemello burbero la lascerà decisamente impreparata, per non parlare della scoperta delle sue mani bollenti, della sua bocca bollente, e del suo aspetto... ancora più bollente. Ora che l'infatuazione per Beau è svanita, Jessica si ritrova sempre più attirata dal suo avversario di infanzia. Se poi a questa gran confusione si aggiungono un gatto assassino, i guai con una banda di motociclisti e i sogni di una vita, quanto sarà disposta a rischiare una ragazza con la testa sulle spaile e il cuore sottochiave?",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9788885603158"
+        }
+      ],
+      "printType": "BOOK",
+      "categories": [
+        "Romanzo rosa, storie d'amore per ragazzi"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300",
+        "thumbnail": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300",
+        "small": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300",
+        "medium": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300",
+        "large": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300",
+        "extraLarge": "https://books.google.com/books/publisher/content/images/frontcover/yOZgDwAAQBAJ?fife=w200-h300"
+      },
+      "language": "it"
+    },
+    "saleInfo": {
+      "buyLink": "https://play.google.com/store/books/details?id=yOZgDwAAQBAJ&hl=it&gl=US"
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "2",
+    "volumeInfo": {
+      "title": "Strega delle streghe. Principesse del regno della fantasia",
+      "authors": [
+        "Tea Stilton"
+      ],
+      "publisher": "Piemme",
+      "publishedDate": "2015",
+      "description": "Ora che il Re Malvagio e il Principe senza Nome sono addormentati nella Rocca del Sonno, un'epoca di prosperità si annuncia per il Grande Regno. Proprio quando tutto sembra procedere al meglio, un'ombra si profila all'orizzonte; le Streghe Grigie sono tornate. Antiche alleate del Re Malvagio, queste creature senza tempo sono determinate a combattere le Principesse con le armi della Magia senza Colore. Nel corso di uno scontro senza precedenti, le cinque figlie del Re Saggio scopriranno che c'è qualcosa nel passato delle streghe, un segreto riposto tra le pieghe del tempo, che andrà svelato per poterle sconfiggere. Età di lettura: da 10 anni.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "8856641623"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9788856641622"
+        }
+      ],
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Fiction / Fantasy & Magic"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4",
+        "small": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4",
+        "medium": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4",
+        "large": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4",
+        "extraLarge": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThG6RfvtnwyXtaJ3Rx8NHLMJApp5kmXFvfR69pgRv8_dw_cbH4"
+      },
+      "language": "it"
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "3",
+    "volumeInfo": {
+      "title": "Un sacchetto di biglie",
+      "authors": [
+        "Joseph Joffo"
+      ],
+      "publisher": "Rizzoli",
+      "publishedDate": "2018-03-20",
+      "description": "Joseph è un bambino, ha quasi dieci anni, è ebreo, e vive nella Parigi del 1941 con la sua numerosa famiglia. Lui e il fratello Maurice sono i più piccoli, vanno ancora a scuola e amano giocare indisturbati a biglie per strada. Ma insospettabilmente la loro vita inizia a complicarsi: prima le SS che diventano sempre più aggressive e la mamma che cuce sulle loro giacche una stella gialla; poi gli insegnanti che in classe iniziano a ignorarli e i compagni che li insultano fino ad arrivare alle mani. Per la famiglia Joffo c'è solo una cosa da fare: fuggire verso la Francia libera di Pétain uno dopo l'altro, prima i fratelli grandi, poi i piccoli, infine i genitori. Inizia così per Joseph e Maurice una grande avventura verso la salvezza, un viaggio pieno di speranza ma anche di pericoli, paure, solitudine e crudeltà. Un libro in cui un mondo pieno d'odio viene descritto senza traccia d'odio, ma con uno stupore tutto infantile. Il bestseller che ha spiegato al mondo l'orrore dell'Olocausto attraverso uno sguardo innocente.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9788858692639"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "8858692632"
+        }
+      ],
+      "printType": "BOOK",
+      "categories": [
+        "Narrativa storica per bambini"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "https://images-na.ssl-images-amazon.com/images/I/51DnPMIdWaL._SX320_BO1,204,203,200_.jpg",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51DnPMIdWaL._SX320_BO1,204,203,200_.jpg"
+      },
+      "language": "it"
+    },
+    "saleInfo": {
+      "buyLink": "https://play.google.com/store/books/details?id=yUlNDwAAQBAJ&rdid=book-yUlNDwAAQBAJ&rdot=1&source=gbs_api"
+    }
+  }
+]

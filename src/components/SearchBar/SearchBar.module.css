@@ -1,0 +1,24 @@
+.bar {
+    border: 1px solid var(--green) !important;
+}
+
+.label {
+    color: var(--green);
+    font-weight: bold;
+    text-align: center;
+}
+
+.searchButton {
+    display: inline-block;
+    padding: 4px 16px;
+    background: var(--green);
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--green);
+}
+
+.searchButton:hover {
+    background: var(--dark-green);
+    color: var(--white);
+}
