@@ -31,7 +31,6 @@ function App() {
 
           <Routes>
               <Route path="/" element={<Home/>}/>
-              <Route path="/ReactBookshelf/" element={<Home/>}/>
               <Route path="/home" element={<Home/>}/>
               <Route path="/books" element={<Books/>}/>
               <Route path="/books/:bookId" element={<BookDetail/>}/>
