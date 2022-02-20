@@ -2,23 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import style from "./Footer.module.css"
-import {NavLink} from "react-router-dom";
 
 function Footer(props) {
-    const {copyright, navItems} = props;
-
-    const itemList = navItems.map((item) => {
-        return (
-            <li key={item.url}>
-                <NavLink className="nav-link"
-                        exact={item.exact}
-                        to={item.url}
-                >
-                    {item.text}
-                </NavLink>
-            </li>
-        )
-    })
+    const {copyright} = props;
 
     return(
         <div>
@@ -30,21 +16,21 @@ function Footer(props) {
                     <div className="d-flex flex-col justify-content-center mx-md-5">
                         <a
                             className="btn btn-lg mx-4"
-                            href="/"
+                            href="https://www.facebook.com/GooglePlayItalia/?brand_redir=290133444456177"
                             role="button"
                         >
                             <FontAwesomeIcon icon={faFacebookF} className={style.socialIcon}/>
                         </a>
                         <a
                             className="btn btn-lg mx-4"
-                            href="/"
+                            href="https://twitter.com/GooglePlay"
                             role="button"
                         >
                             <FontAwesomeIcon icon={faTwitter} className={style.socialIcon}/>
                         </a>
                         <a
                             className="btn btn-lg mx-4"
-                            href="/"
+                            href="https://www.instagram.com/googleplay/"
                             role="button"
                         >
                             <FontAwesomeIcon icon={faInstagram} className={style.socialIcon}/>

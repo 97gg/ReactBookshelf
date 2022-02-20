@@ -12,6 +12,7 @@ export const ProfileComponent = () => {
             <div className="container">
                 <h1 className="m-5">Profilo</h1>
                 <div className="col-7 mx-auto">
+
                     <Card className={style.profileCard+" mb-5"}>
                         <div className="row m-5 text-center">
                             <h2>{user.name}</h2>
@@ -23,6 +24,7 @@ export const ProfileComponent = () => {
                                 />
                             </Col>
                         </div>
+
                         <div className="col-7 mx-auto">
                             <div className="row mb-3">
                                 <h3><strong>Nome:</strong> {user.name}</h3>
@@ -34,13 +36,9 @@ export const ProfileComponent = () => {
                                 <h3><strong>Email:</strong> {user.email}</h3>
                             </div>
                         </div>
-
-
                     </Card>
-
                 </div>
             </div>
-
         </div>
     )
 

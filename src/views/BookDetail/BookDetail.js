@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import style from "./BookDetail.module.css";
-import {NavLink, useParams} from "react-router-dom";
-import {Button, Card, CardBody, CardHeader, CardImg, CardSubtitle, CardText, CardTitle} from "reactstrap";
+import {useParams} from "react-router-dom";
+import {Card, CardBody, CardImg} from "reactstrap";
 import bestsellerListData from '../../assets/data/bestseller.json'
 
 const API_KEY = process.env.REACT_APP_API_KEY;

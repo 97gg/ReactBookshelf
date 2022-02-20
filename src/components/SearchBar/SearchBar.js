@@ -1,8 +1,6 @@
-import React, {useState} from "react";
-import {Button, Col, Form, FormGroup, Input, InputGroup, Label} from "reactstrap";
+import React from "react";
+import {Form, Input, InputGroup} from "reactstrap";
 import style from "./SearchBar.module.css"
-import {Link, NavLink} from "react-router-dom";
-import {input} from "../../views/Books/Books";
 
 function SearchBar(props){
     const {placeholder, title, ctaText, handleSearch, handleSubmit} = props;
@@ -21,7 +19,7 @@ function SearchBar(props){
                         className={style.bar}
                         onInput={handleSearch}
                     />
-                    <button className={style.searchButton+" px-4"}>Cerca</button>
+                    <button className={style.searchButton+" px-4"}>{ctaText}</button>
                 </InputGroup>
             </Form>
         </div>
@@ -30,3 +28,6 @@ function SearchBar(props){
 }
 
 export default SearchBar;
+
+
+

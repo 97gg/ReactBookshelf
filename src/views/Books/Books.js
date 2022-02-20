@@ -2,10 +2,9 @@ import React, {useEffect, useState} from "react";
 import clsx from "clsx";
 import BooksGrid from "../../components/BooksGrid/BooksGrid";
 import BooksTable from "../../components/BooksTable/BooksTable";
-import {Link, NavLink, Redirect, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import style from './Books.module.css'
-import CategoryButton from "../../components/CategoryButton/CategoryButton";
 
 
 const API_KEY = process.env.REACT_APP_API_KEY;
@@ -24,7 +23,6 @@ function Books() {
 
     const handleSearch = (e) => {
         setInput(e.target.value);
-
     }
 
     const handleSubmit = (e) => {
@@ -53,7 +51,6 @@ function Books() {
     }
 
     function getBooksByKeyword(){
-        console.log({input});
         fetch(`${API_URL}/v1/volumes?q=?${input}&orderBy=newest&key=${API_KEY}`)
             .then(response => response.json())
             .then(result => {
@@ -76,6 +73,7 @@ function Books() {
 
     return (
         <div className="container">
+
             {/* Search Bar*/}
             <div className="row justify-content-center">
                 <div className="col-11 col-md-4 mt-5 mb-3 mx-auto">
@@ -86,16 +84,9 @@ function Books() {
             <div className="row justify-content-between">
                 <div className="col">
                     <h1 className={categoryName ? style.title : "d-none"}>{categoryName}</h1>
-                    {/*
-
-                     <div className={categoryName ? style.back : "d-none"}>
-                        <div>
-                            <NavLink className={style.backButton} to={`/`}>Indietro</NavLink>
-                        </div>
-                    </div>
-                    */}
                 </div>
 
+                {/* Switch Button */}
                 <div className="col">
                     <div className={style.switch}>
                         <div className={clsx(style.option, {[style.active] : displayGrid})}
@@ -112,12 +103,14 @@ function Books() {
             </div>
 
             <div className="row justify-content-center">
+                {/* Conditional Rendering */}
                 <div className="col">
                     {displayGrid ?
                         <BooksGrid booksList={booksListData} col={{xs:1, sm:2, md:3, lg:4}}/> :
                         <BooksTable booksList={booksListData}/>}
                 </div>
             </div>
+
         </div>
     )
 }

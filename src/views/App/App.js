@@ -15,9 +15,9 @@ function App() {
     {url: "/books", text: "Libri", exact: "false"}
   ];
 
-    const authNav = [
+  const authNav = [
         {url: "/profile", text: "Profilo", exact: "true"}
-    ];
+  ];
 
   return (
     <BrowserRouter>
@@ -26,9 +26,7 @@ function App() {
           logo={logo}
           footerCopyright="Giulia Gottardo"
           navItems={nav}
-          authNavItems={authNav}
-      >
-
+          authNavItems={authNav}>
           <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/home" element={<Home/>}/>
@@ -37,11 +35,10 @@ function App() {
               <Route path="/books/category/:categoryName" element={<Books/>}/>
               <Route path="/profile" element={<Profile/>}/>
           </Routes>
-
       </MainTemplate>
     </BrowserRouter>
-
   );
 }
 
 export default App;
+

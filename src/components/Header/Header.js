@@ -27,14 +27,15 @@ FontAwesomeIcon.propTypes = {
 };
 
 function Header(props) {
-    const {appTitle, logo, navItems, authNavItems} = props;
+    const {appTitle, logo, navItems} = props;
     const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
     const {
         user,
         isAuthenticated,
         logout,
     } = useAuth0();
-    const toggle = () => setIsOpen(!isOpen);
+
 
     const logoutWithRedirect = () =>
         logout({
@@ -42,19 +43,6 @@ function Header(props) {
         });
 
     const itemList = navItems.map((item) => {
-        return (
-            <NavItem key={item.url} className={style.navItem}>
-                <RouterLink exact={item.exact}
-                            to={item.url}
-                            className="nav-link">
-                    {item.text}
-                </RouterLink>
-            </NavItem>
-        )
-    });
-
-
-    const authItemList = authNavItems.map((item) => {
         return (
             <NavItem key={item.url} className={style.navItem}>
                 <RouterLink exact={item.exact}
@@ -82,15 +70,6 @@ function Header(props) {
                         <Nav className="mx-5 mx-md-0" navbar>
                             {itemList}
                         </Nav>
-                        {/*
-                         {isAuthenticated && (
-                            <Nav className="mx-5 mx-md-0" navbar>
-                                {authItemList}
-                            </Nav>
-                        )}
-                        */}
-
-
 
                         {!isAuthenticated ? (
                             <Nav className="ms-auto" navbar>
@@ -132,8 +111,6 @@ function Header(props) {
 
                                 </NavItem>
                             </Nav>
-
-
                         )}
 
                     </Collapse>
